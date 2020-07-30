@@ -1,0 +1,78 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+#intro {
+    background-image: url(../img/banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+.top-nav-collapse {
+    background-color: #4a3600;
+}
+
+#intro h1 {
+    font-size: 100px;
+}
+
+.price {
+    left: 40%;
+}
+
+.font-size-30 {
+    font-size: 24px;
+}
+
+.font-size-50 {
+    font-size: 50px;
+}
+
+.main-text-color {
+    color: #4a3600;
+}
+
+.main-background-color {
+    background: #4a3600;
+}
+
+.z-index-1 {
+    z-index: -1;
+}
+.white-link {
+    color: white;
+}
+
+.send:hover {
+    background: white;
+    color: #4a3600;
+    border: 1px #4a3600 solid;
+    text-decoration: none;
+}
+
+.block {
+    position: relative;
+    bottom: 50%;
+    left: 2%;
+    color: white;
+}
+
+.block:hover {
+    color: #4a3600;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4a3600;
+    }
+}
